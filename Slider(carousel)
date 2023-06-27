@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="libs/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Carousel</title>
+</head>
+
+<body>
+
+    <!-- <div class="carousel" id="carousel"></div> -->
+    <div class="carousel" id="myCarousel">
+      <div id="slides-container" class="slides">
+        <span class="slide active" style="background-image: url(assets/img/nature-1.jpg);"></span>
+        <span class="slide" style="background-image: url(assets/img/nature-2.jpg);"></span>
+        <span class="slide" style="background-image: url(assets/img/nature-3.jpg);"></span>
+        <span class="slide" style="background-image: url(assets/img/nature-4.jpg);"></span>
+        <span class="slide" style="background-image: url(assets/img/nature-5.jpg);"></span>
+        <span class="slide" style="background-image: url(assets/img/nature-6.jpg);"></span>
+        <span class="slide" style="background-image: url(assets/img/nature-7.jpg);"></span>
+      </div>
+    </div>
+
+    <!-- *******для работы basic-carousel*******
+
+    <div class="carousel" id="carousel">
+    <ul id="slides-container" class="slides">
+      <li class="slide active">Slide 1</li>
+      <li class="slide">Slide 2</li>
+      <li class="slide">Slide 3</li>
+      <li class="slide">Slide 4</li>
+      <li class="slide">Slide 5</li>
+    </ul>
+
+    <div id="controls-container" class="controls">
+      <span class="control" id="pause-btn"><i class="fas fa-pause"></i></span>
+      <span class="control" id="previous-btn"><i class="fas fa-arrow-left"></i></span>
+      <span class="control" id="next-btn"><i class="fas fa-arrow-right"></i></span>
+    </div>
+
+    <ol id="indicators-container" class="indicators">
+      <li class="indicator active" data-slide-to="0">1</li>
+      <li class="indicator" data-slide-to="1">2</li>
+      <li class="indicator" data-slide-to="2">3</li>
+      <li class="indicator" data-slide-to="3">4</li>
+      <li class="indicator" data-slide-to="4">5</li>
+    </ol>
+
+  </div> -->
+
+  <!-- <script src="assets/js/basic-carousel.js"></script> -->
+  <!-- <script src="assets/js/proto-carousel.js"></script> -->
+  <script src="assets/js/class-carousel.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
